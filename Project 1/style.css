@@ -38,6 +38,7 @@ html, body {
     display: flex;
     align-items:center;
     justify-content: space-between;
+    /* background-color: red; */
 }
 .nav a{
     color: white;
@@ -59,17 +60,26 @@ html, body {
     margin-left: 35%;
 } */
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
     margin-left: 12%;
+    /* background-color: #fff; */
 }
 .blocktext h5{
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right;
+    text-align: right !important;
+    /* background-color: blue; */
 }
 .small-heading{
     margin-top: 100px;
     padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
 }
 .small-heading h5{
     text-transform: uppercase;
@@ -212,4 +222,12 @@ html, body {
 .footer-right{
     display: flex;
     gap: 20px;
+}
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
 }
