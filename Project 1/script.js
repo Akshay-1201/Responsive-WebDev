@@ -58,3 +58,18 @@ firstPageAnim();
     })
  }
  flatCircle();
+
+ document.querySelectorAll(".elem").forEach(function(elem){
+    elem.addEventListener("mousemove", function (dets){
+        // console.log(dets)
+
+        let diff = dets.clientY - elem.getBoundingClientRect().top;
+
+        gsap.to(elem.querySelector("img"), {
+            opacity: 1,
+            ease: Power1,
+            top:diff,
+            left: dets.clientX
+        });
+    });
+ });
