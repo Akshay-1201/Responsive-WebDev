@@ -13,7 +13,7 @@ html, body {
 #mincircle{
     width: 10px;
     height: 10px;
-    position: absolute;
+    /* position: relative; */
     background-color: #fff;
     z-index: 99999;
     border-radius: 50%;
