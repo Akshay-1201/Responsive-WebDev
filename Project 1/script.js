@@ -60,16 +60,39 @@ firstPageAnim();
  flatCircle();
 
  document.querySelectorAll(".elem").forEach(function(elem){
+
+    let rotate = 0;
+    let diffrot = 0;
+
+    elem.addEventListener("mouseleave", function(dets){
+        gsap.to(elem.querySelector("img"),{
+            opacity: 0,
+
+        })
+    })
+
     elem.addEventListener("mousemove", function (dets){
         // console.log(dets)
 
-        let diff = dets.clientY - elem.getBoundingClientRect().top;
+        let diff = elem.getBoundingClientRect().top - dets.clientY;
+
+        diffrot = dets.clientX-rotate;
+        rotate = dets.clientX;
+        
 
         gsap.to(elem.querySelector("img"), {
             opacity: 1,
-            ease: Power1,
-            top:diff,
-            left: dets.clientX
+            ease: Power2,
+            top:diff * 0.2,
+            left: dets.clientX,
+            rotate: gsap.utils.clamp(-20,20, diffrot)
         });
     });
  });
+ function bigcircleMouseFollower(xscale,yscale){
+    window.addEventListener("mousemove", function(dets){
+        document.querySelector(".biscircle").style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(${xscale}, ${yscale})`;
+        
+    })
+}
+bigcircleMouseFollower();
