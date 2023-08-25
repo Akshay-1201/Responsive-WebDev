@@ -65,3 +65,59 @@ gsap.to(".page-bootom", {
     },
     opacity:0
 })
+
+
+let tl = gsap.timeline({
+  scrollTrigger:{
+    trigger:`.page1`,
+    start:`top top`,
+    scrub:1,
+    scroller:`.main`,
+    // markers:true,
+    pin:true
+  }
+})
+tl.to(".page1 h1",{
+  top:`-50%`
+})
+
+let tl1 = gsap.timeline({
+  scrollTrigger:{
+    trigger:`.page2`,
+    start:`top top`,
+    scrub:1,
+    scroller:`.main`,
+    // markers:true,
+    pin:true
+  }
+})
+tl1.to(".page2 h1",{
+  top:`-50%`
+})
+
+let tl2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:`.page3`,
+    start:`top top`,
+    scrub:1,
+    scroller:`.main`,
+    // markers:true,
+    pin:true
+  }
+})
+tl2.to(".page3 h1",{
+  top:`-50%`
+})
+let tl3 = gsap.timeline({
+  scrollTrigger:{
+    trigger:`.page4`,
+    start:`top top`,
+    scrub:1,
+    scroller:`.main`,
+    // markers:true,
+    pin:true
+  }
+})
+tl3.to(".page4 h1",{
+  top:`-50%`
+})

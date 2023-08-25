@@ -32,6 +32,7 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
+
 }
 .page nav button{
     padding: 7px 20px;
@@ -78,4 +79,141 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: #fff;
+    
+}
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page1 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+.page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.page2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page2 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}    
+.page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.page3 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page3 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}    
+.page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.page4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page4 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}    
+
+.page5{
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.page5 img{
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page5-upper{
+    height: 30%;
+    width: 50%;
+   
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+}
+.page5-upper img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    position: absolute;
+   z-index: 9; 
+}
+.page5-upper-inner{
+    height: 60%;
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    color: #ff823d;
+    z-index: 99999;
+}
+.page5 button{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border: 1px solid black;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 1.4vw;
 }
