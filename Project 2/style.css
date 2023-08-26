@@ -217,3 +217,96 @@ html,body{
     border-radius: 50px;
     font-size: 1.4vw;
 }
+.page6{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.page6 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page6 h1 span{
+    font-size: 2vw;
+}
+.page6 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+.page7{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+.page-l{
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+    position: relative;
+
+}
+.page-l h1{
+    font-size: 2.5vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+.page-r{
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.page-r h3{
+    font-size: 1.9vw;
+    width: 80%;
+    opacity: .5;
+}
+.page-r button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff823d;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 10vh;
+}
+.page9{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.page9{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page9 span{
+    font-size: 2vw;
+}
+.page9 h1{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
